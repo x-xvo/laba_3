@@ -15,13 +15,13 @@ python task_manager.py
 - Хранение данных: JSON-файл
 - Git: контроль версий, ветвление
 
-## Архитектура приложения
-task_manager.py       ← основной исполняемый скрипт
-models/
-task.py       ← модель Task: описание задач
-services/
-manager.py    ← логика управления задачами
-repository/
-json_repo.py  ← работа с JSON (загрузка/сохранение)
-utils/
-helpers.py    ← вспомогательные функции (если есть)
+## Архитектура
+- task_manager.py       ← основной исполняемый скрипт
+- ├── models/
+- │   └── task.py       ← модель Task: описание задач
+- ├── services/
+- │   └── manager.py    ← логика управления задачами
+- ├── repository/
+- │   └── json_repo.py  ← работа с JSON 
+- └── utils/
+-    └── helpers.py    ← вспомогательные функции 
